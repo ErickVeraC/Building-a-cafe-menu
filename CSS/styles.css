@@ -21,6 +21,13 @@ body {
     max-width: 500px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
+
 hr {
     height: 2px;
     background-color: brown;
@@ -55,7 +62,8 @@ h1, h2 {
 
 h1 {
     font-size: 40px;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
 
 }
 
@@ -83,4 +91,8 @@ a:hover {
 
 a:active {
     color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
 }
